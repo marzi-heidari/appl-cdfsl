@@ -85,7 +85,7 @@ For CropDiseases, EuroSAT, ISIC and ChestX, download them from
 7. Test with saved features (optional, if there is no need to adapt the features during testing) 
 
     ```bash
-        python test_with_saved_features.py --model ResNet10 --method protonet --dataset CropDisease --n_shot 5 --train_aug
+        python test_with_saved_features.py --model WideResNet28_10 --method protonet --dataset CropDisease --n_shot 5 --train_aug
     ```
 
 8. Test
