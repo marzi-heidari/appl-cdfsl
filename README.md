@@ -85,14 +85,14 @@ For CropDiseases, EuroSAT, ISIC and ChestX, download them from
 7. Test with saved features (optional, if there is no need to adapt the features during testing) 
 
     ```bash
-        python test_with_saved_features.py --model ResNet10 --method baseline --dataset CropDisease --n_shot 5 --train_aug
+        python test_with_saved_features.py --model ResNet10 --method protonet --dataset CropDisease --n_shot 5 --train_aug
     ```
 
 8. Test
     • *Finetune*
 
     ```bash
-        python finetune.py --model WideResNet28_10  --method baseline  --train_aug --n_shot 5 
+        python finetune.py --model WideResNet28_10  --method protonet  --train_aug --n_shot 5 
     ```
     
     • *Example output:* 600 Test Acc = 49.91% +- 0.44%
