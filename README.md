@@ -6,7 +6,7 @@ PyTorch implementation of:
 
 
 ## Datasets
-The following datasets are used for evaluation in this challenge:
+The following datasets are used for evaluation:
 
 ### Source domain: 
 
