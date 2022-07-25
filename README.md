@@ -62,12 +62,6 @@ For CropDiseases, EuroSAT, ISIC and ChestX, download them from
 
 5. Train base models on miniImageNet
 
-    • *Standard supervised learning on miniImageNet*
-
-    ```bash
-        python ./train.py --dataset miniImageNet --model WideResNet28_10   --method protonet --train_aug
-    ```
-
     • *Train meta-learning method (protonet) on miniImageNet*
 
     ```bash
